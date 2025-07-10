@@ -25,4 +25,3 @@ if (imgCell) {
   block.innerHTML = '';
   block.appendChild(section);
 }
-

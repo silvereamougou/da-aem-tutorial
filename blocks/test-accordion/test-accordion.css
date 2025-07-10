@@ -1,0 +1,30 @@
+.t-accordion-item {
+  border-bottom: 1px solid #e4ad08;
+  padding: 10px 0;
+}
+
+.t-accordion-title {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background-color: #f92020;
+}
+
+.t-accordion-title.active {
+  background-color: #e0e0e0;
+}
+
+.t-accordion-content {
+  display: none;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.t-accordion-content.show {
+  display: block;
+}
