@@ -2,7 +2,7 @@ export default function decorate(block) {
   const [title, description] = block.children;
 
   const section = document.createElement('section');
-  section.className = 'hero';
+  section.className = 'test';
 
   if (title) {
     const h1 = document.createElement('h1');
@@ -15,12 +15,14 @@ export default function decorate(block) {
     p.textContent = description.textContent;
     section.appendChild(p);
   }
-
-  block.innerHTML = '';
-  block.appendChild(section);
-}
-const imgCell = block.children[2];
+//adding image to the hero('Yes i am using a hero')
+  const imgCell = block.children[2];
 if (imgCell) {
   const img = imgCell.querySelector('img');
   if (img) section.appendChild(img);
 }
+
+  block.innerHTML = '';
+  block.appendChild(section);
+}
+
