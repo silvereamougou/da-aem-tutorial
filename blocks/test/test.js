@@ -4,26 +4,25 @@ export default function decorate(block) {
   const section = document.createElement('section');
   section.className = 'test';
 
-  if (title) {
+  if (title?.textContent) {
     const h1 = document.createElement('h1');
-    h1.textContent = title.textContent;
+    h1.textContent = title.textContent.trim();
     section.appendChild(h1);
   }
 
-  if (description) {
+  if (description?.textContent) {
     const p = document.createElement('p');
-    p.textContent = description.textContent;
+    p.textContent = description.textContent.trim();
     section.appendChild(p);
   }
-  
-//adding image to the hero('Yes i am using a hero')
- const imgCell = block.children[2];
-if (imgCell) {
-  const img = imgCell.querySelector('img');
-  if (img) section.appendChild(img);
-}
+
+  // Adding image to the hero ('Yes I am using a hero')
+  const imgCell = block.children[2];
+  const img = imgCell?.querySelector('img');
+  if (img) {
+    section.appendChild(img.cloneNode(true));
+  }
 
   block.innerHTML = '';
   block.appendChild(section);
-}
 
