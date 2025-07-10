@@ -177,6 +177,16 @@
               "columns": 1
             }
           }
+        },
+        {
+          "title": "test",
+          "id": "test",
+          "plugins": {
+            "da": {
+              "rows": 1,
+              "columns": 1
+            }
+          }
         }
       ]
     }
