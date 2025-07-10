@@ -16,7 +16,7 @@ export default function decorate(block) {
     section.appendChild(p);
   }
 //adding image to the hero('Yes i am using a hero')
-  const imgCell = block.children[2];
+ const imgCell = block.children[2];
 if (imgCell) {
   const img = imgCell.querySelector('img');
   if (img) section.appendChild(img);
