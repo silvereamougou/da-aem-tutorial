@@ -1,0 +1,19 @@
+.custom-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+.custom-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.custom-nav a:hover {
+  color: #0074e4;
+}
