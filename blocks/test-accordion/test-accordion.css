@@ -1,5 +1,5 @@
 .t-accordion-item {
-  border-bottom: 1px solid #e4ad08;
+  border-bottom: 1px solid #0b0b0a;
   padding: 10px 0;
 }
 
@@ -12,11 +12,10 @@
   width: 100%;
   text-align: left;
   padding: 10px;
-  background-color: #f92020;
 }
 
 .t-accordion-title.active {
-  background-color: #e0e0e0;
+  background-color: #fafafa;
 }
 
 .t-accordion-content {
@@ -27,4 +26,5 @@
 
 .t-accordion-content.show {
   display: block;
+  background-color: beige;
 }
