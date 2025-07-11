@@ -1,4 +1,5 @@
 export default function decorate(block) {
+   
   const [title, description] = block.children;
 
   const section = document.createElement('section');

@@ -1,0 +1,39 @@
+.section-one {
+  position: relative;
+  height: 400px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6);
+  z-index: 0;
+}
+
+.overlay-text {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.section-two {
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.section-two button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
