@@ -20,6 +20,9 @@ export default function decorate(block) {
   // Adding image to the hero ('Yes I am using a hero')
   const imgCell = block.children[2];
   const img = imgCell?.querySelector('img');
+   if (img) {
+  img.classList.add('custom-img-style');
+}
   if (img) {
     section.appendChild(img.cloneNode(true));
   }
