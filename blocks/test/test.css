@@ -13,3 +13,8 @@
 .test p {
   font-size: 1.2rem;
 }
+.custom-img-style {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
