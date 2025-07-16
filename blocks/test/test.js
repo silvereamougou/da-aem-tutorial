@@ -24,6 +24,9 @@ export default function decorate(block) {
   img.classList.add('custom-img-style');
 }
   if (img) {
+  img.classList.add('custom-img-style');
+}
+  if (img) {
     section.appendChild(img.cloneNode(true));
   }
 

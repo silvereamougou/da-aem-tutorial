@@ -1,4 +1,5 @@
-export default decorate(block);{
+export default function decorate(block) {
+  
   // Loop through each row (each accordion item)
   [...block.children].forEach((row) => {
     const [titleEl, contentEl] = row.children;
