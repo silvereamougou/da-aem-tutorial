@@ -1,0 +1,32 @@
+.slider-wrapper {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.slide {
+  flex: 0 0 80%;
+  scroll-snap-align: center;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.slide img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.slide h3 {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.slide p {
+  margin: 0;
+  color: #555;
+}
